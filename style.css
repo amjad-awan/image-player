@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+
+.main-area
+{
+ background-color: rgb(107, 29, 172);
+ width: 100%;
+ //height: 100vh;
+}
+.form-area
+{
+    display: flex;
+    justify-content: center;
+    //margin-left: auto;
+    //margin-right: auto;
+    width: 100%;
+    height: 30vh;
+    border:5px dashed red;
+    padding: 50px
+    
+}
+
+.place-image
+{
+    background-color: coral;
+    width: 100%;
+    //height: 60vh;
+    padding: 50px;
+
+}
+
+.image-area, .range-area
+{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border:5px solid red;
+    //height: 300px;
+}
+
+.image-area span
+{
+
+    padding: 50px;
+    border: 5px solid red;
+
+}
+
+.image-area span i{
+    font-size: 100px;
+}
+
+.image-area img
+{
+    width: 200px;
+    height: 200px;
+}
